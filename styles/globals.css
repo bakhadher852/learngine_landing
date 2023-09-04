@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ /* This to make the scrool smooth in tail wind  */
+@layer base {
+    html {
+      @apply scroll-smooth;
+    }
+  }
